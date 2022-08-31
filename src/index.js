@@ -1,3 +1,3 @@
-import _ from 'lodash';
+import 'lodash';
 import './style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
