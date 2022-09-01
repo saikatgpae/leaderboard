@@ -3,6 +3,10 @@
   font-size: 1rem;
 }
 
+.score small:nth-child(odd) {
+  background-color: rgb(213, 226, 222);
+}
+
 .submit-button {
   float: right;
 }
