@@ -1,3 +1,8 @@
-h1 {
-    color: brown;
+.scores {
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+.submit-button {
+  float: right;
 }
