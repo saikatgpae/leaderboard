@@ -1,3 +1,8 @@
-.score {
-  color: black;
+.scores {
+  margin-top: 20px;
+  font-size: 1rem;
+}
+
+.submit-button {
+  float: right;
 }
