@@ -1,12 +1,56 @@
+.main-content h1 {
+  text-align: center;
+  background-image: url('./images/word_background.jpeg');
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
 .scores {
   margin-top: 20px;
   font-size: 1rem;
+  box-shadow: 5px 10px #888;
 }
 
 .score small:nth-child(odd) {
   background-color: rgb(213, 226, 222);
 }
 
-.submit-button {
-  float: right;
+.button {
+  box-shadow: 1px 6px rgb(90, 88, 88);
+  border-radius: 5px;
+  background-color: #0f79bb;
+  color: white;
+  border: none;
+}
+
+.button:hover { background-color: #064f7c; }
+
+.button:active {
+  background-color: #064f7c;
+  box-shadow: 0 5px rgb(90, 88, 88);
+  transform: translateY(1px);
+}
+
+.add-score {
+  color: rgb(29, 115, 195);
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    gap: 15%;
+  }
+
+  #submit {
+    float: right;
+  }
 }
