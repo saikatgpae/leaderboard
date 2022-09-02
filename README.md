@@ -12,7 +12,7 @@
 - Technologies used: Linters, Bootstrap.
 
 
-[Live Demo Link]()
+[Live Demo Link](https://saikatgpae.github.io/leaderboard/)
 
 
 
